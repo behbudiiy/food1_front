@@ -1,24 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Food from "./components/foods/foods";
+import About from "./components/about/about";
+import Order from "./components/order/order";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-botim hali ohiriga yetmagan etibor uchun rahmat
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Food />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/order" element={<Order />} />
+      </Routes>
+    </Router>
   );
 }
 

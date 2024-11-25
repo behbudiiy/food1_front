@@ -1,0 +1,77 @@
+.about-page {
+  padding: 20px;
+  background-color: #121212;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.about-order-list {
+  margin-top: 20px;
+}
+
+.about-order-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #1e1e1e;
+  border-radius: 8px;
+}
+
+.about-order-image {
+  font-size: 30px;
+}
+
+.about-order-info {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.about-order-name {
+  font-weight: bold;
+  display: block;
+}
+
+.about-order-description {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.about-order-price {
+  font-weight: bold;
+}
+
+.about-order-total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about-pay-button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #52c41a;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.about-pay-button:hover {
+  background-color: #3dbd33;
+}
+.about-back-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+
